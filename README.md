@@ -1,5 +1,10 @@
 # 💫 About Me:
-🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+🔭 I’m currently working on **Finora** — a minimalist, offline-first finance automation app with OCR, Room, and premium UX.  
+👯 I’m looking to collaborate on **AI runtimes, workflow automation, and cinematic frontend projects**.  
+🤝 I’m looking for help with **scaling global platforms for the UK/US market**.  
+🌱 I’m currently learning **advanced AI orchestration, GPU/CPU optimization, and responsive 3D UI design**.  
+💬 Ask me about **prompt engineering, Clean Architecture, Kotlin/Android development, and premium UX strategies**.  
+⚡ Fun fact: I believe in *functional luxury* — solutions that are sharp, frictionless, and market-ready, combining technical precision with emotional impact.
 
 
 ## 🌐 Socials:
