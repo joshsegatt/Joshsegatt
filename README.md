@@ -1,5 +1,6 @@
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20and%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=twinkling" />
 </div>
 
 <div align="center">
@@ -87,4 +88,5 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Joshsegatt&label=GLOBAL+TELEMETRY&color=AAAAAA&style=for-the-badge" alt="Profile Views" />
 </div>
+
 
