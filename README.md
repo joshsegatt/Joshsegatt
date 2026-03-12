@@ -1,5 +1,6 @@
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=fadeIn" />
+  <img src="https://raw.githubusercontent.com/joshsegatt/joshsegatt/main/assets/banner-transparent.png" onerror="this.onerror=null; this.src='https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=fadeIn'" />
 </div>
 
 <div align="center">
@@ -15,49 +16,60 @@
 
 ---
 
+<h2 align="center">⚡ Master of Systems & Design</h2>
+
+<div align="center">
+  <p>I blend <b>Hardcore Engineering</b> (GPU optimizations, AI Runtimes) with <b>Cinematic Design</b> (Figma-level interactive UX) to generate absurd market value.</p>
+</div>
+
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="55%" valign="top">
-      <h2 align="center">⚡ Neural Pathways & Operations</h2>
-      <pre><code>
-{
-  "focus": [
-    "AI Orchestration",
-    "High-Performance SaaS",
-    "GPU/CPU Optimization",
-    "Functional Luxury UX"
-  ],
-  "current_project": "Finora Engine",
-  "status": "Accepting Contracts"
-}
-      </code></pre>
+    <td width="50%" valign="top" align="center">
+      <h3>🧬 Engineering Brain</h3>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=Joshsegatt&show_icons=true&theme=omni&hide_border=true&bg_color=00000000&title_color=FFFFFF&text_color=A3B3BC&icon_color=FFFFFF&ring_color=FFFFFF" />
+      </a>
+      <br><br>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshsegatt&layout=donut&theme=omni&hide_border=true&bg_color=00000000&title_color=FFFFFF&text_color=A3B3BC&icon_color=FFFFFF" />
+      </a>
     </td>
-    <td width="45%" valign="top">
-       <h2 align="center">🛠️ Ecosystem & Tooling</h2>
-       <div align="center">
-          <br>
-          <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,framer&theme=dark" /><br/>
-          <img src="https://skillicons.dev/icons?i=cpp,cs,java,kotlin,dart&theme=dark" /><br/>
-          <img src="https://skillicons.dev/icons?i=supabase,vercel,cloudflare,githubactions&theme=dark" /><br/>
-          <img src="https://skillicons.dev/icons?i=figma,cmake,linux,docker&theme=dark" />
-       </div>
+    <td width="50%" valign="top" align="center">
+       <h3>🎨 Creative & Tooling Orbit</h3>
+       <br>
+       <!-- Animated Orbiting Tech Stack (using SkillIcons API) -->
+       <a href="https://skillicons.dev">
+         <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,framer&theme=dark" /><br/><br/>
+         <img src="https://skillicons.dev/icons?i=cpp,cs,java,kotlin,dart&theme=dark" /><br/><br/>
+         <img src="https://skillicons.dev/icons?i=supabase,vercel,cloudflare,githubactions&theme=dark" /><br/><br/>
+         <img src="https://skillicons.dev/icons?i=figma,cmake,linux,docker&theme=dark" />
+       </a>
     </td>
   </tr>
 </table>
 
 ---
 
-<h2 align="center">📈 Telemetry & Output</h2>
+<h2 align="center">� The Streak & Activity Graph</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Joshsegatt&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&bg_color=000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=A3B3BC" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshsegatt&theme=dracula&hide_border=true&layout=compact&bg_color=000000&title_color=FFFFFF&text_color=A3B3BC" alt="Top Languages" width="48%" />
+  <a href="https://github.com/Joshsegatt">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Joshsegatt&theme=dracula&bg_color=000000&color=FFFFFF&line=A3B3BC&point=FFFFFF&hide_border=true" width="100%"/>
+  </a>
 </div>
 
 <br>
 
 <div align="center">
-  <p>If you represent a venture, enterprise, or team requiring elite-tier architecture, initiate contact.</p>
+  <a href="https://github.com/Joshsegatt">
+    <img src="https://nirzak-streak-stats.vercel.app/?user=Joshsegatt&theme=dark&hide_border=true&background=000000&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=A3B3BC&currStreakLabel=A3B3BC&sideLabels=A3B3BC" width="100%"/>
+  </a>
+</div>
+
+<br><br>
+
+<div align="center">
+  <h3>Ready to build something impossible?</h3>
   
   <a href="mailto:josuesegatofilho@gmail.com">
     <img src="https://img.shields.io/badge/INITIATE_CONTACT-josuesegatofilho@gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -74,6 +86,5 @@
 
 <br/>
 <div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Joshsegatt&icon=3&color=0" alt="Profile Views" />
+  <a href="https://github.com/Joshsegatt"><img src="https://visitcount.itsvg.in/api?id=Joshsegatt&icon=6&color=4" alt="Profile Views" /></a>
 </div>
-
