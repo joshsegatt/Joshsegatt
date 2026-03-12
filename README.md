@@ -1,6 +1,5 @@
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/joshsegatt/joshsegatt/main/assets/banner-transparent.png" onerror="this.onerror=null; this.src='https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=fadeIn'" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=twinkling" />
 </div>
 
 <div align="center">
@@ -86,5 +85,6 @@
 
 <br/>
 <div align="center">
-  <a href="https://github.com/Joshsegatt"><img src="https://visitcount.itsvg.in/api?id=Joshsegatt&icon=6&color=4" alt="Profile Views" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Joshsegatt&label=GLOBAL+TELEMETRY&color=AAAAAA&style=for-the-badge" alt="Profile Views" />
 </div>
+
