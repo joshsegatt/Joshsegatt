@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1a1a1a&height=300&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=JOSH%20SEGATT&fontSize=90&fontAlignY=38&desc=Architecting%20the%20Future%20of%20AI%20%26%20SaaS&descAlignY=55&descAlign=62&fontColor=ffffff&descSize=24&animation=fadeIn" />
 </div>
 
 <div align="center">
@@ -74,5 +74,6 @@
 
 <br/>
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Joshsegatt/count.svg" />
+  <img src="https://visitcount.itsvg.in/api?id=Joshsegatt&icon=3&color=0" alt="Profile Views" />
 </div>
+
