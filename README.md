@@ -77,12 +77,6 @@
 </div>
 
 <br/>
-<div align="center">
-  <a href="https://linkedin.com/in/joshsegatt"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://youtube.com/@Segatt"><img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-  <a href="https://tiktok.com/@Joshsegat"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
-  <a href="https://twitch.tv/Joshsegatt"><img src="https://img.shields.io/badge/Twitch-000000?style=for-the-badge&logo=twitch&logoColor=white" /></a>
-</div>
 
 <br/>
 <div align="center">
