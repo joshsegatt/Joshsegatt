@@ -9,7 +9,7 @@
 <br/>
 
 <p>
-  <img src="https://img.shields.io/badge/●%20Open%20to%20Contracts-00d26a?style=flat-square&labelColor=0d1117&color=0d1117&logoColor=00d26a" />
+  <img src="https://img.shields.io/badge/●%20Open%20to%20Contracts-00d26a?style=flat-square&labelColor=0d1117&color=0d1117" />
   &nbsp;
   <a href="mailto:josuesegatofilho@gmail.com">
     <img src="https://img.shields.io/badge/josuesegatofilho%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=8b949e" />
@@ -21,8 +21,6 @@
 </div>
 
 <br/>
-
-<!-- ════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
@@ -42,11 +40,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,1,2&height=1&section=header" />
-
-<h3>
-  <img src="https://img.shields.io/badge/▸%20STACK-0d1117?style=flat-square&labelColor=0d1117" />
-</h3>
+<h3>▸ &nbsp; STACK</h3>
 
 <table border="0" width="90%">
 <tr>
@@ -77,19 +71,17 @@
 
 <div align="center">
 
-<h3>
-  <img src="https://img.shields.io/badge/▸%20METRICS-0d1117?style=flat-square&labelColor=0d1117" />
-</h3>
+<h3>▸ &nbsp; METRICS</h3>
 
 <a href="https://github.com/Joshsegatt">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Joshsegatt&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshsegatt&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&langs_count=8" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Joshsegatt&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff&include_all_commits=true&count_private=true&cache_seconds=3600" />
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Joshsegatt&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&langs_count=8&cache_seconds=3600" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/Joshsegatt">
-  <img width="96%" src="https://nirzak-streak-stats.vercel.app/?user=Joshsegatt&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=f0f6fc&sideNums=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&stroke=0d1117" />
+  <img width="96%" src="https://github-readme-streak-stats-eight.vercel.app?user=Joshsegatt&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=f0f6fc&sideNums=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&stroke=0d1117" />
 </a>
 
 <br/><br/>
@@ -120,12 +112,10 @@
 
 <div align="center">
 
-<h3>
-  <img src="https://img.shields.io/badge/▸%20RECOGNITION-0d1117?style=flat-square&labelColor=0d1117" />
-</h3>
+<h3>▸ &nbsp; RECOGNITION</h3>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=Joshsegatt&theme=algolia&no-frame=true&column=7&margin-w=6&margin-h=6" width="96%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Joshsegatt&theme=algolia&no-frame=true&column=7&margin-w=6&margin-h=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="96%" />
 </a>
 
 </div>
@@ -135,8 +125,6 @@
 <!-- ══════════════════════════ CTA ════════════════════════════ -->
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,1,2&height=1&section=footer" />
 
 <br/>
 
@@ -154,7 +142,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Joshsegatt&label=PROFILE+VIEWS&color=0d1117&style=flat-square&labelColor=161b22&color=161b22" />
+<img src="https://komarev.com/ghpvc/?username=Joshsegatt&label=PROFILE+VIEWS&style=flat-square&labelColor=161b22&color=161b22" />
 
 </div>
 
