@@ -14,20 +14,20 @@ London · open to contracts
 
 ---
 
-I build end-to-end products: React/Next SaaS, NestJS APIs, and native apps in Tauri + Rust. Recent work sits at the intersection of logistics, personal finance, and local-first tooling — with AI only where it earns its place.
+End-to-end products: React/Next SaaS, NestJS APIs, and native apps in Tauri + Rust or Kotlin. Recent work is logistics, household finance, and local-first tooling. AI only where it pays rent.
 
 ## Featured work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [Batimove](https://www.batimove.ch) · [repo](https://github.com/joshsegatt/batimove-frontend) | Swiss moving platform — quoting, ops, and client-facing SaaS | React, Vite, TypeScript |
-| [PriceCompass](https://price-compass-teal.vercel.app) · [repo](https://github.com/joshsegatt/PriceCompass) | Bill tracking and savings goals | NestJS, React, Prisma |
-| [Segatt Tools](https://github.com/joshsegatt/Segatt-Tools) | Native Windows maintenance suite. Local AI. Zero telemetry | Tauri, Rust, TypeScript |
-| [Monte Charge](https://monte-charge1.vercel.app) · [repo](https://github.com/joshsegatt/Monte-Charge1) | Desktop logistics hub for Swiss operations | Tauri, Rust |
-| [CVLetterAI](https://github.com/joshsegatt/CVLetterAI) | AI CV and cover-letter builder | Next.js, OpenAI |
-| [Sable Overlay](https://github.com/joshsegatt/Sable-Overlay-Gamer) | GPU / ETW telemetry overlay for games | Rust, Tauri |
+| [Batimove](https://www.batimove.ch) · [repo](https://github.com/joshsegatt/batimove.ch) | Swiss moving platform — quotes and client UI | React, Vite, TypeScript |
+| [PriceCompass](https://price-compass-teal.vercel.app) · [repo](https://github.com/joshsegatt/PriceCompass) | UK bills, plan catalogue, savings goals | React, NestJS, Prisma |
+| [Segatt Tools](https://github.com/joshsegatt/Segatt-Tools) | Windows maintenance. Local AI. Zero telemetry | Tauri, Rust, Next.js |
+| [Monte Charge](https://monte-charge1.vercel.app) · [repo](https://github.com/joshsegatt/LocationMonteCharge.ch) | Geneva lift / moving ops hub | React, Vite, Three.js |
+| [CVLetterAI](https://github.com/joshsegatt/CVLetterAI) | CV and cover-letter workspace | Next.js, Inngest, OpenAI |
+| [Sable](https://github.com/joshsegatt/Sable-Overlay-Gamer) | GPU / ETW gaming overlay | Rust, Tauri |
 
-Also shipping: [LabelGuardUK](https://github.com/joshsegatt/LabelGuardUK) (UK label compliance) · [Finora](https://github.com/joshsegatt/Finora) (Android finance, Kotlin + Compose)
+Also: [LabelGuard UK](https://github.com/joshsegatt/LabelGuardUK) (Natasha’s Law labels) · [Finora](https://github.com/joshsegatt/Finora) (offline Android expenses, MIT) · [UK TaxSaver](https://github.com/joshsegatt/UK-TaxSaver)
 
 ## Stack
 
@@ -36,7 +36,7 @@ Also shipping: [LabelGuardUK](https://github.com/joshsegatt/LabelGuardUK) (UK la
 </p>
 
 - **Web** — TypeScript, React, Next.js, Vite, Tailwind
-- **API & data** — Node, NestJS, Prisma, PostgreSQL, Python
+- **API & data** — Node, NestJS, Prisma, PostgreSQL
 - **Native** — Rust, Tauri, Kotlin / Jetpack Compose
 - **Ship** — Docker, Vercel, GitHub Actions
 
@@ -51,7 +51,7 @@ Also shipping: [LabelGuardUK](https://github.com/joshsegatt/LabelGuardUK) (UK la
 
 <div align="center">
 
-Want something built? [josuesegatofilho@gmail.com](mailto:josuesegatofilho@gmail.com) · [joshsegatt.com](https://joshsegatt.com)
+[josuesegatofilho@gmail.com](mailto:josuesegatofilho@gmail.com) · [joshsegatt.com](https://joshsegatt.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,12,20,25&height=100&section=footer" alt="" />
 
