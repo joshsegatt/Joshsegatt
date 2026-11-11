@@ -1,58 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,12,20,25&height=180&section=header&text=Josh%20Segatt&fontSize=72&fontAlignY=40&fontColor=ffffff&desc=Full-stack%20engineer%20%C2%B7%20SaaS%20%C2%B7%20native%20apps%20%C2%B7%20AI%20systems&descAlignY=68&descSize=16&descColor=8b949e&animation=fadeIn" />
+<img src="./assets/profile-hero.svg" width="100%" alt="Josh Segatt — Software Engineer. Full-stack, native, and AI systems. Products people can use, systems engineers can trust." />
 
-**I ship products that work** — web, desktop, and AI — from first commit to production.
+<br />
 
-London · open to contracts
+**Software Engineer · Full-Stack Products · Native Applications · AI Engineering**
 
-[joshsegatt.com](https://joshsegatt.com)
-·
-[email](mailto:josuesegatofilho@gmail.com)
+I turn ambitious product ideas into working software, with a particular interest in **architecture, reliability, developer experience, and thoughtful design**.
+
+[**Portfolio ↗**](https://joshsegatt.com) &nbsp;·&nbsp; [**Explore projects ↓**](#selected-work) &nbsp;·&nbsp; [**Engineering approach ↓**](#how-i-work) &nbsp;·&nbsp; [**Email ↗**](mailto:josuesegatofilho@gmail.com)
+
+<sub>UK · Switzerland · Working across borders</sub>
 
 </div>
 
----
+<br />
 
-End-to-end products: React/Next SaaS, NestJS APIs, and native apps in Tauri + Rust or Kotlin. Recent work is logistics, household finance, and local-first tooling. AI only where it pays rent.
+## Software that works beyond the demo
 
-## Featured work
+I build across the stack: **TypeScript/React interfaces, APIs and data models, Rust-powered desktop software, Android apps, and tools for AI-assisted engineering**.
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [Batimove](https://www.batimove.ch) · [repo](https://github.com/joshsegatt/batimove.ch) | Swiss moving platform — quotes and client UI | React, Vite, TypeScript |
-| [PriceCompass](https://price-compass-teal.vercel.app) · [repo](https://github.com/joshsegatt/PriceCompass) | UK bills, plan catalogue, savings goals | React, NestJS, Prisma |
-| [Segatt Tools](https://github.com/joshsegatt/Segatt-Tools) | Windows maintenance. Local AI. Zero telemetry | Tauri, Rust, Next.js |
-| [Monte Charge](https://monte-charge1.vercel.app) · [repo](https://github.com/joshsegatt/LocationMonteCharge.ch) | Geneva lift / moving ops hub | React, Vite, Three.js |
-| [CVLetterAI](https://github.com/joshsegatt/CVLetterAI) | CV and cover-letter workspace | Next.js, Inngest, OpenAI |
-| [Sable](https://github.com/joshsegatt/Sable-Overlay-Gamer) | GPU / ETW gaming overlay | Rust, Tauri |
+My strongest interest is the point where product decisions meet technical risk: an interface should feel effortless, a system should behave predictably, and a release should have evidence behind it. I'm drawn to practical software, not complexity for its own sake.
 
-Also: [LabelGuard UK](https://github.com/joshsegatt/LabelGuardUK) (Natasha’s Law labels) · [Finora](https://github.com/joshsegatt/Finora) (offline Android expenses, MIT) · [UK TaxSaver](https://github.com/joshsegatt/UK-TaxSaver)
+## Featured: SeniorOS
 
-## Stack
+<a href="https://github.com/joshsegatt/SeniorOS"><img src="https://raw.githubusercontent.com/joshsegatt/SeniorOS/main/brand/social/readme-hero.svg" width="100%" alt="SeniorOS — coding agents that verify their work" /></a>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,tailwind,nodejs,nestjs,postgres,prisma,rust,python,kotlin,docker,vercel,githubactions&theme=dark" alt="Stack icons" />
-</p>
+**An engineering layer for coding agents that makes verification part of the workflow.**
 
-- **Web** — TypeScript, React, Next.js, Vite, Tailwind
-- **API & data** — Node, NestJS, Prisma, PostgreSQL
-- **Native** — Rust, Tauri, Kotlin / Jetpack Compose
-- **Ship** — Docker, Vercel, GitHub Actions
-
-## Activity
+SeniorOS uses selective skills, risk boundaries, structured checks, and reproducible evaluations. Its published benchmark compares the same coding tasks across configurations and models, including Claude, Grok, and Gemini. The goal is not more confident AI output. It's **better diagnosis, safer changes, and evidence a reviewer can inspect**.
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=joshsegatt&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&icon_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshsegatt&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f0f6fc&text_color=8b949e&langs_count=8" alt="Top languages" />
+
+<a href="https://github.com/joshsegatt/SeniorOS/blob/main/brand/social/proof.mp4"><img src="https://raw.githubusercontent.com/joshsegatt/SeniorOS/main/brand/social/proof.gif" width="88%" alt="SeniorOS recorded verification demo: the same model on a reported bug, without and with the engineering layer" /></a>
+
+<sub>Recorded comparison · <a href="https://github.com/joshsegatt/SeniorOS/blob/main/evals/bench/README.md">Read the methodology and limitations</a> · <a href="https://github.com/joshsegatt/SeniorOS">Explore SeniorOS</a></sub>
+
 </div>
 
----
+## Selected work
+
+| Project | Problem I'm solving | Engineering focus |
+| :--- | :--- | :--- |
+| **[SeniorOS](https://github.com/joshsegatt/SeniorOS)** | Coding agents need reliable engineering workflows, not just instructions. | Agent tooling, guardrails, benchmarks, verification |
+| **[chit](https://github.com/joshsegatt/chit)** | AI-generated patches shouldn't ship on an unverified “tests pass” claim. | Isolated Git worktrees, red/green proof, deterministic gates |
+| **[Segatt Tools](https://github.com/joshsegatt/Segatt-Tools)** | Windows maintenance without unnecessary cloud dependence. | Rust, Tauri, local AI, privacy-first desktop tooling |
+| **[Batimoving B2B](https://github.com/joshsegatt/Batimoving-b2b)** | Moving logistics and lead workflows need coherent business rules. | Marketplace architecture, transactional workflows, Swiss operations |
+| **[Finora](https://github.com/joshsegatt/Finora)** | Track spending and scan receipts without needing an account. | Kotlin, Jetpack Compose, Room, on-device OCR |
+| **[Sable](https://github.com/joshsegatt/Sable-Overlay-Gamer)** | Make gaming performance telemetry useful in real time. | Rust, Tauri, Windows telemetry, overlays |
+| **[PriceCompass](https://github.com/joshsegatt/PriceCompass)** | Make recurring UK household costs easier to understand. | React, NestJS, PostgreSQL, Prisma |
+
+<sub>More product work: <a href="https://github.com/joshsegatt/batimove.ch">Batimove</a> · <a href="https://github.com/joshsegatt/CVLetterAI">CVLetterAI</a> · <a href="https://github.com/joshsegatt/LabelGuardUK">LabelGuard UK</a> · <a href="https://github.com/joshsegatt/LocationMonteCharge.ch">Monte Charge</a></sub>
+
+## How I work
+
+<img src="./assets/engineering-loop.svg" width="100%" alt="Animated engineering workflow: understand constraints and risk, implement with clear boundaries, then verify with reproducible evidence" />
+
+I prefer **small, explainable systems** over impressive-looking diagrams with no operational value.
+
+- **Product first:** understand the actual user, the constraints, and what success means.
+- **Engineering discipline:** clear boundaries, explicit state, sensible data models, and reversible changes.
+- **Verification over optimism:** test behavior, investigate root causes, and document what remains uncertain.
+- **Design with intent:** interfaces that communicate clearly, with motion only when it adds meaning.
+
+## Tools I reach for
 
 <div align="center">
 
-[josuesegatofilho@gmail.com](mailto:josuesegatofilho@gmail.com) · [joshsegatt.com](https://joshsegatt.com)
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,prisma,rust,python,kotlin,docker,githubactions,vercel&theme=dark&perline=12" alt="TypeScript, React, Next.js, Node.js, PostgreSQL, Prisma, Rust, Python, Kotlin, Docker, GitHub Actions and Vercel" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,12,20,25&height=100&section=footer" alt="" />
+</div>
+
+| Layer | Stack |
+| :--- | :--- |
+| **Interfaces** | TypeScript, React, Next.js, Tailwind CSS, Vite |
+| **Backend & data** | Node.js, NestJS, PostgreSQL, Prisma, Drizzle |
+| **Native & mobile** | Rust, Tauri, Kotlin, Jetpack Compose |
+| **AI & tooling** | Model integrations, agent workflows, evaluation harnesses, local inference |
+| **Shipping** | Docker, GitHub Actions, Vercel |
+
+## Build something worth shipping
+
+I'm interested in **software engineering contracts, product collaborations, native tooling, and AI developer infrastructure**. If the problem requires both a useful product and a serious engineering foundation, let's talk.
+
+<div align="center">
+
+**[joshsegatt.com](https://joshsegatt.com) &nbsp;·&nbsp; [josuesegatofilho@gmail.com](mailto:josuesegatofilho@gmail.com)**
+
+<sub>Built with intent. Tested with evidence. Improved in public.</sub>
 
 </div>
