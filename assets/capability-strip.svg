@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="116" viewBox="0 0 1200 116" role="img" aria-labelledby="title desc">
+<title id="title">Four engineering capabilities</title>
+<desc id="desc">Animated line icons for product engineering, platform and data, native applications, and AI verification systems.</desc>
+<defs>
+ <style>
+ .f{font-family:Inter,"Segoe UI",Arial,sans-serif}
+ @keyframes nudge{0%,100%{opacity:.45}50%{opacity:1}}
+ @keyframes trace{to{stroke-dashoffset:-36}}
+ .live{animation:nudge 2.8s ease-in-out infinite}
+ .line{stroke-dasharray:5 7;animation:trace 4s linear infinite}
+ @media(prefers-reduced-motion:reduce){.live,.line{animation:none}}
+ </style>
+</defs>
+<rect width="1200" height="116" rx="13" fill="#101922" stroke="#304353"/>
+<g stroke="#334857"><path d="M300 15V101M600 15V101M900 15V101"/></g>
+<g fill="none" stroke="#BFEF83" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="28" y="31" width="60" height="53" rx="7" stroke="#6E8A9E"/>
+ <path d="M28 46H88 M44 39h.2 M51 39h.2 M58 39h.2"/>
+ <path d="M42 61H73M42 69H65" class="line"/>
+ <rect x="328" y="31" width="60" height="53" rx="7" stroke="#6E8A9E"/>
+ <circle cx="345" cy="46" r="4" class="live"/><circle cx="370" cy="46" r="4"/><circle cx="358" cy="70" r="4"/>
+ <path d="M348 48l8 18M368 48l-8 18M349 46H366"/>
+ <rect x="638" y="38" width="40" height="39" rx="6" stroke="#6E8A9E"/>
+ <path d="M646 30v8M657 30v8M668 30v8M646 77v8M657 77v8M668 77v8M630 48h8M630 62h8M678 48h8M678 62h8"/>
+ <rect x="648" y="47" width="20" height="20" rx="3" class="live"/>
+ <path d="M938 50L958 39L978 50V71L958 82L938 71Z" stroke="#6E8A9E"/>
+ <path d="M947 60l8 7 14-16" class="live"/>
+</g>
+<g class="f">
+ <text x="107" y="55" font-size="16" font-weight="700" fill="#E8F0F5">Product</text>
+ <text x="107" y="75" font-size="12" fill="#97ADBC">Web &amp; experience</text>
+ <text x="407" y="55" font-size="16" font-weight="700" fill="#E8F0F5">Platform</text>
+ <text x="407" y="75" font-size="12" fill="#97ADBC">APIs &amp; data</text>
+ <text x="697" y="55" font-size="16" font-weight="700" fill="#E8F0F5">Native</text>
+ <text x="697" y="75" font-size="12" fill="#97ADBC">Rust &amp; Android</text>
+ <text x="997" y="55" font-size="16" font-weight="700" fill="#E8F0F5">AI systems</text>
+ <text x="997" y="75" font-size="12" fill="#97ADBC">Agents &amp; proofs</text>
+</g>
+</svg>
