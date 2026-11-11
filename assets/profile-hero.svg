@@ -1,63 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="352" viewBox="0 0 1200 352" role="img" aria-labelledby="t d">
-<title id="t">Josh Segatt — Software Engineer</title>
-<desc id="d">Dark editorial cover with animated system map. Full-stack engineering, native tooling, and reliable AI systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="378" viewBox="0 0 1200 378" role="img" aria-labelledby="title desc">
+<title id="title">Josh Segatt — software engineer building products and verifiable AI systems</title>
+<desc id="desc">An editorial dark cover with a design-build-verify systems diagram. A restrained lime pulse traces the engineering workflow.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070F1D"/><stop offset=".58" stop-color="#0B1B2A"/><stop offset="1" stop-color="#07111D"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#2DD4BF" stop-opacity=".23"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
-  <linearGradient id="accent"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#93A9BD" stroke-opacity=".095" stroke-width=".8"/></pattern>
-  <clipPath id="frame"><rect width="1200" height="352" rx="22"/></clipPath>
+  <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0C1118"/><stop offset=".57" stop-color="#101A24"/><stop offset="1" stop-color="#0C131C"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#C6F476"/><stop offset="1" stop-color="#8DDBDF"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#D6E0EA" stroke-opacity=".045" stroke-width="1"/></pattern>
+  <clipPath id="round"><rect width="1200" height="378" rx="16"/></clipPath>
   <style>
-  .label{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:700;letter-spacing:3px}
-  .text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-  @keyframes dash{to{stroke-dashoffset:-84}}
-  @keyframes pulse{0%,100%{opacity:.45;r:4}50%{opacity:1;r:7}}
-  @keyframes float{0%,100%{opacity:.32}50%{opacity:.7}}
-  .flow{stroke-dasharray:8 12;animation:dash 8s linear infinite}
-  .pulse{animation:pulse 2.6s ease-in-out infinite}
-  .soft{animation:float 5s ease-in-out infinite}
-  @media (prefers-reduced-motion:reduce){.flow,.pulse,.soft{animation:none}}
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .caps{font-family:Inter,"Segoe UI",Arial,sans-serif;letter-spacing:2px;font-weight:700}
+    @keyframes route{to{stroke-dashoffset:-84}}
+    @keyframes breathe{0%,100%{opacity:.52}50%{opacity:1}}
+    @keyframes blink{0%,70%,100%{opacity:1}75%,95%{opacity:.34}}
+    .trace{stroke-dasharray:5 9;animation:route 8s linear infinite}
+    .status{animation:breathe 3s ease-in-out infinite}
+    .cursor{animation:blink 2.6s steps(1) infinite}
+    @media(prefers-reduced-motion:reduce){.trace,.status,.cursor{animation:none}}
   </style>
 </defs>
-<g clip-path="url(#frame)">
-<rect width="1200" height="352" fill="url(#bg)"/>
-<rect width="1200" height="352" fill="url(#grid)"/>
-<circle cx="974" cy="170" r="290" fill="url(#glow)"/>
-<path d="M0 351 L560 351 L730 0 L1200 0" fill="none" stroke="#5F87AB" stroke-opacity=".11" stroke-width="2"/>
-<path d="M0 310H1200" stroke="#8EA9C0" stroke-opacity=".14"/>
-<rect x="54" y="42" width="45" height="45" rx="11" fill="#102A3E" stroke="#2DD4BF" stroke-opacity=".5"/>
-<text x="76.5" y="71" text-anchor="middle" font-size="17" fill="#D9FDF8" font-weight="800" class="text">JS</text>
-<text x="116" y="59" class="label" font-size="10.5" fill="#57D8C8">ENGINEERING / PRODUCT / SYSTEMS</text>
-<text x="116" y="78" class="text" font-size="12" fill="#91A7BA">Independent software engineer</text>
-<text x="55" y="177" class="text" font-size="73" font-weight="800" letter-spacing="-3.2" fill="#F0F7FC">JOSH SEGATT<tspan fill="#4DDBCC">.</tspan></text>
-<text x="58" y="213" class="label" font-size="15" letter-spacing="2" fill="#B5C8D8">FULL-STACK   /   NATIVE   /   AI SYSTEMS</text>
-<text x="59" y="252" class="text" font-size="18" fill="#A8BECE">Products people can use. Systems engineers can trust.</text>
-<g transform="translate(55 276)">
-<rect width="188" height="26" rx="13" fill="#183246" stroke="#35546A" stroke-opacity=".75"/>
-<circle cx="16" cy="13" r="4" fill="#2DD4BF" class="pulse"/>
-<text x="29" y="17" fill="#D6E7F2" class="text" font-size="11" font-weight="600">DESIGN → BUILD → PROVE</text>
-<rect x="198" width="144" height="26" rx="13" fill="#142838" stroke="#35546A" stroke-opacity=".75"/>
-<text x="212" y="17" fill="#C6D8E6" class="text" font-size="11" font-weight="600">UK / CH / REMOTE</text>
-</g>
-<g>
-<circle cx="968" cy="168" r="123" fill="none" stroke="#60A5FA" stroke-width="1" stroke-opacity=".16"/>
-<circle cx="968" cy="168" r="90" fill="none" stroke="#2DD4BF" stroke-width="1.4" stroke-opacity=".35" stroke-dasharray="3 10"/>
-<circle cx="968" cy="168" r="55" fill="#11293A" stroke="#6C9BBB" stroke-opacity=".5"/>
-<path d="M968 86 V250 M886 168 H1050" stroke="url(#accent)" stroke-opacity=".35"/>
-<path d="M886 168 H1050" fill="none" stroke="#2DD4BF" stroke-width="2.5" class="flow"/>
-<circle cx="968" cy="168" r="24" fill="#173F4A" stroke="#2DD4BF" stroke-opacity=".65"/>
-<path d="m956 168 9 9 16-19" fill="none" stroke="#72E9DB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<g fill="#091823" stroke="#58BFB4" stroke-width="1.4">
- <rect x="898" y="41" width="140" height="30" rx="8"/><rect x="1042" y="149" width="133" height="30" rx="8"/><rect x="878" y="264" width="153" height="30" rx="8"/>
-</g>
-<g class="text" font-size="10" font-weight="700" letter-spacing="1.1" fill="#DBF5F1">
-<text x="968" y="60" text-anchor="middle">ARCHITECTURE</text>
-<text x="1108" y="168" text-anchor="middle">DELIVERY</text>
-<text x="954" y="283" text-anchor="middle">VERIFICATION</text>
-</g>
-<circle cx="968" cy="78" r="4" fill="#80E5D9" class="pulse"/><circle cx="1058" cy="168" r="4" fill="#80E5D9" class="soft"/><circle cx="968" cy="258" r="4" fill="#80E5D9" class="soft"/>
-</g>
-<text x="55" y="335" class="text" font-size="11" fill="#6F92AA">01 / SOFTWARE WITH INTENT</text>
-<text x="1144" y="335" text-anchor="end" class="text" font-size="11" fill="#6F92AA">joshsegatt.com</text>
+<g clip-path="url(#round)">
+  <rect width="1200" height="378" fill="url(#base)"/>
+  <rect width="1200" height="378" fill="url(#grid)"/>
+  <path d="M0 1H1200M0 377H1200" stroke="#52677B" stroke-opacity=".45"/>
+  <path d="M735 0V378" stroke="#C1D0DD" stroke-opacity=".12"/>
+  <rect x="42" y="39" width="39" height="39" rx="7" fill="#C6F476"/>
+  <text x="61.5" y="64" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="900" fill="#10201A">JS.</text>
+  <text x="98" y="54" class="caps" font-size="12" fill="#ECF3FA">JOSH SEGATT</text>
+  <text x="98" y="72" class="font" font-size="12" fill="#91A4B4">SOFTWARE ENGINEERING / PRODUCT SYSTEMS</text>
+  <text x="42" y="161" class="font" font-size="73" font-weight="800" letter-spacing="-3.7" fill="#F1F5F9">Josh Segatt<tspan fill="#C6F476">.</tspan></text>
+  <text x="45" y="197" class="caps" font-size="16" fill="#C6F476">AI AGENT INFRASTRUCTURE  /  FULL-STACK  /  NATIVE</text>
+  <path d="M43 218H682" stroke="#6F8195" stroke-opacity=".43"/>
+  <text x="44" y="261" class="font" font-size="23" letter-spacing="-.5" fill="#EFF5FA">Build software. Prove it works.</text>
+  <text x="44" y="288" class="font" font-size="15" fill="#AEBECE">Product thinking, precise engineering, evidence before claims.</text>
+  <g>
+    <rect x="42" y="316" width="192" height="29" rx="6" fill="#203026" stroke="#49673D"/>
+    <circle cx="58" cy="330.5" r="3.5" fill="#C6F476" class="status"/>
+    <text x="72" y="335" class="caps" font-size="10.2" fill="#DBF1C3" letter-spacing="1">UK / CH / REMOTE</text>
+    <text x="255" y="335" class="font" font-size="11" fill="#778F9F">joshsegatt.com</text>
+  </g>
+  <g>
+    <rect x="763" y="37" width="396" height="308" rx="11" fill="#101D27" stroke="#375061"/>
+    <path d="M763 90H1159" stroke="#375061"/>
+    <circle cx="783" cy="63" r="4" fill="#C6F476" class="status"/>
+    <text x="796" y="67" class="caps" font-size="11" letter-spacing="1.5" fill="#CDDBE4">ENGINEERING / 001</text>
+    <text x="1137" y="67" text-anchor="end" class="font" font-size="11" fill="#708A9D">WORKFLOW</text>
+    <path d="M804 127V291" stroke="#3D5361" stroke-width="2"/>
+    <path d="M804 127V291" stroke="url(#edge)" stroke-width="2.5" class="trace" stroke-linecap="round"/>
+    <g>
+      <rect x="784" y="115" width="354" height="50" rx="7" fill="#142630" stroke="#3D5863"/>
+      <circle cx="804" cy="140" r="7" fill="#142630" stroke="#C6F476" stroke-width="2"/>
+      <text x="829" y="135" class="caps" font-size="11.5" letter-spacing=".8" fill="#C6F476">01 / DEFINE</text>
+      <text x="829" y="153" class="font" font-size="12.5" fill="#D1DDE5">Contracts, constraints &amp; risk</text>
+      <rect x="784" y="180" width="354" height="50" rx="7" fill="#142630" stroke="#3D5863"/>
+      <circle cx="804" cy="205" r="7" fill="#142630" stroke="#A6CBE4" stroke-width="2"/>
+      <text x="829" y="200" class="caps" font-size="11.5" letter-spacing=".8" fill="#D3E4F0">02 / ENGINEER</text>
+      <text x="829" y="218" class="font" font-size="12.5" fill="#D1DDE5">Architecture, interfaces &amp; code</text>
+      <rect x="784" y="245" width="354" height="50" rx="7" fill="#1B2D27" stroke="#709950"/>
+      <circle cx="804" cy="270" r="7" fill="#1B2D27" stroke="#C6F476" stroke-width="2" class="status"/>
+      <text x="829" y="265" class="caps" font-size="11.5" letter-spacing=".8" fill="#C6F476">03 / VERIFY</text>
+      <text x="829" y="283" class="font" font-size="12.5" fill="#E2F0DF">Tests, replay &amp; evidence</text>
+    </g>
+    <text x="784" y="327" class="font" font-size="10.5" fill="#89A1B0">No magic confidence scores. Inspectable results.</text>
+    <rect x="1136" y="317" width="7" height="12" rx="1" fill="#C6F476" class="cursor"/>
+  </g>
+  <text x="43" y="366" class="font" font-size="9.5" fill="#647D8D">ENGINEERED FOR THE PEOPLE WHO USE IT, AND THE PEOPLE WHO MAINTAIN IT.</text>
 </g>
 </svg>
