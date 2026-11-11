@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="238" viewBox="0 0 1160 238" role="img" aria-labelledby="title desc">
+<title id="title">Engineering workflow: Scope, Build, Verify</title>
+<desc id="desc">A three-stage engineering workflow, with animated connectors and a verification gate.</desc>
+<defs>
+ <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091422"/><stop offset="1" stop-color="#0D2332"/></linearGradient>
+ <linearGradient id="pulse" x1="0" x2="1"><stop stop-color="#4779B3"/><stop offset="1" stop-color="#38D9C7"/></linearGradient>
+ <style>
+ .f{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+ @keyframes dash{to{stroke-dashoffset:-100}}
+ @keyframes breathe{0%,100%{opacity:.6}50%{opacity:1}}
+ .move{stroke-dasharray:6 9;animation:dash 6s linear infinite}
+ .blink{animation:breathe 2.8s ease-in-out infinite}
+ @media (prefers-reduced-motion:reduce){.move,.blink{animation:none}}
+ </style>
+</defs>
+<rect width="1160" height="238" rx="20" fill="url(#base)"/>
+<path d="M0 46 H1160 M0 195 H1160" stroke="#759BB5" stroke-opacity=".12"/>
+<text x="35" y="31" fill="#8DAABF" font-size="11" letter-spacing="2.6" font-weight="700" class="f">HOW I ENGINEER SOFTWARE</text>
+<g>
+<rect x="35" y="64" width="324" height="113" rx="12" fill="#132C3D" stroke="#355A6B"/>
+<rect x="418" y="64" width="324" height="113" rx="12" fill="#132C3D" stroke="#355A6B"/>
+<rect x="801" y="64" width="324" height="113" rx="12" fill="#143441" stroke="#338D89"/>
+<g class="f">
+<text x="55" y="91" fill="#56DCCC" font-size="12" font-weight="800">01 / UNDERSTAND</text>
+<text x="55" y="125" fill="#F1F7FB" font-size="23" font-weight="700">Scope &amp; architecture</text>
+<text x="55" y="151" fill="#A7BFD0" font-size="13">Constraints, risks, clear contracts.</text>
+<text x="438" y="91" fill="#78B8F7" font-size="12" font-weight="800">02 / IMPLEMENT</text>
+<text x="438" y="125" fill="#F1F7FB" font-size="23" font-weight="700">Build &amp; iterate</text>
+<text x="438" y="151" fill="#A7BFD0" font-size="13">Simple boundaries, useful interfaces.</text>
+<text x="821" y="91" fill="#56DCCC" font-size="12" font-weight="800">03 / DEMONSTRATE</text>
+<text x="821" y="125" fill="#F1F7FB" font-size="23" font-weight="700">Test &amp; verify</text>
+<text x="821" y="151" fill="#A7BFD0" font-size="13">Evidence before a release claim.</text>
+</g>
+<path d="M362 120 H416 M745 120 H799" stroke="#34576A" stroke-width="4" stroke-linecap="round"/>
+<path d="M362 120 H416 M745 120 H799" stroke="url(#pulse)" stroke-width="2" stroke-linecap="round" class="move"/>
+<circle cx="1110" cy="80" r="5" fill="#4FE0CF" class="blink"/>
+</g>
+<g class="f">
+<text x="35" y="216" fill="#829EB2" font-size="11">Product clarity</text><text x="418" y="216" fill="#829EB2" font-size="11">Reliable execution</text><text x="801" y="216" fill="#69DCCF" font-size="11">Reproducible results</text>
+<text x="1125" y="217" text-anchor="end" fill="#6B8B9E" font-size="10">ENGINEERING LOOP / 001</text>
+</g></svg>
