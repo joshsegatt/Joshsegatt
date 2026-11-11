@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="352" viewBox="0 0 1200 352" role="img" aria-labelledby="t d">
+<title id="t">Josh Segatt — Software Engineer</title>
+<desc id="d">Dark editorial cover with animated system map. Full-stack engineering, native tooling, and reliable AI systems.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070F1D"/><stop offset=".58" stop-color="#0B1B2A"/><stop offset="1" stop-color="#07111D"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#2DD4BF" stop-opacity=".23"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="accent"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#93A9BD" stroke-opacity=".095" stroke-width=".8"/></pattern>
+  <clipPath id="frame"><rect width="1200" height="352" rx="22"/></clipPath>
+  <style>
+  .label{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:700;letter-spacing:3px}
+  .text{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  @keyframes dash{to{stroke-dashoffset:-84}}
+  @keyframes pulse{0%,100%{opacity:.45;r:4}50%{opacity:1;r:7}}
+  @keyframes float{0%,100%{opacity:.32}50%{opacity:.7}}
+  .flow{stroke-dasharray:8 12;animation:dash 8s linear infinite}
+  .pulse{animation:pulse 2.6s ease-in-out infinite}
+  .soft{animation:float 5s ease-in-out infinite}
+  @media (prefers-reduced-motion:reduce){.flow,.pulse,.soft{animation:none}}
+  </style>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="352" fill="url(#bg)"/>
+<rect width="1200" height="352" fill="url(#grid)"/>
+<circle cx="974" cy="170" r="290" fill="url(#glow)"/>
+<path d="M0 351 L560 351 L730 0 L1200 0" fill="none" stroke="#5F87AB" stroke-opacity=".11" stroke-width="2"/>
+<path d="M0 310H1200" stroke="#8EA9C0" stroke-opacity=".14"/>
+<rect x="54" y="42" width="45" height="45" rx="11" fill="#102A3E" stroke="#2DD4BF" stroke-opacity=".5"/>
+<text x="76.5" y="71" text-anchor="middle" font-size="17" fill="#D9FDF8" font-weight="800" class="text">JS</text>
+<text x="116" y="59" class="label" font-size="10.5" fill="#57D8C8">ENGINEERING / PRODUCT / SYSTEMS</text>
+<text x="116" y="78" class="text" font-size="12" fill="#91A7BA">Independent software engineer</text>
+<text x="55" y="177" class="text" font-size="73" font-weight="800" letter-spacing="-3.2" fill="#F0F7FC">JOSH SEGATT<tspan fill="#4DDBCC">.</tspan></text>
+<text x="58" y="213" class="label" font-size="15" letter-spacing="2" fill="#B5C8D8">FULL-STACK   /   NATIVE   /   AI SYSTEMS</text>
+<text x="59" y="252" class="text" font-size="18" fill="#A8BECE">Products people can use. Systems engineers can trust.</text>
+<g transform="translate(55 276)">
+<rect width="188" height="26" rx="13" fill="#183246" stroke="#35546A" stroke-opacity=".75"/>
+<circle cx="16" cy="13" r="4" fill="#2DD4BF" class="pulse"/>
+<text x="29" y="17" fill="#D6E7F2" class="text" font-size="11" font-weight="600">DESIGN → BUILD → PROVE</text>
+<rect x="198" width="144" height="26" rx="13" fill="#142838" stroke="#35546A" stroke-opacity=".75"/>
+<text x="212" y="17" fill="#C6D8E6" class="text" font-size="11" font-weight="600">UK / CH / REMOTE</text>
+</g>
+<g>
+<circle cx="968" cy="168" r="123" fill="none" stroke="#60A5FA" stroke-width="1" stroke-opacity=".16"/>
+<circle cx="968" cy="168" r="90" fill="none" stroke="#2DD4BF" stroke-width="1.4" stroke-opacity=".35" stroke-dasharray="3 10"/>
+<circle cx="968" cy="168" r="55" fill="#11293A" stroke="#6C9BBB" stroke-opacity=".5"/>
+<path d="M968 86 V250 M886 168 H1050" stroke="url(#accent)" stroke-opacity=".35"/>
+<path d="M886 168 H1050" fill="none" stroke="#2DD4BF" stroke-width="2.5" class="flow"/>
+<circle cx="968" cy="168" r="24" fill="#173F4A" stroke="#2DD4BF" stroke-opacity=".65"/>
+<path d="m956 168 9 9 16-19" fill="none" stroke="#72E9DB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#091823" stroke="#58BFB4" stroke-width="1.4">
+ <rect x="898" y="41" width="140" height="30" rx="8"/><rect x="1042" y="149" width="133" height="30" rx="8"/><rect x="878" y="264" width="153" height="30" rx="8"/>
+</g>
+<g class="text" font-size="10" font-weight="700" letter-spacing="1.1" fill="#DBF5F1">
+<text x="968" y="60" text-anchor="middle">ARCHITECTURE</text>
+<text x="1108" y="168" text-anchor="middle">DELIVERY</text>
+<text x="954" y="283" text-anchor="middle">VERIFICATION</text>
+</g>
+<circle cx="968" cy="78" r="4" fill="#80E5D9" class="pulse"/><circle cx="1058" cy="168" r="4" fill="#80E5D9" class="soft"/><circle cx="968" cy="258" r="4" fill="#80E5D9" class="soft"/>
+</g>
+<text x="55" y="335" class="text" font-size="11" fill="#6F92AA">01 / SOFTWARE WITH INTENT</text>
+<text x="1144" y="335" text-anchor="end" class="text" font-size="11" fill="#6F92AA">joshsegatt.com</text>
+</g>
+</svg>
