@@ -1,92 +1,106 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Josh Segatt — Software Engineer. Full-stack, native, and AI systems. Products people can use, systems engineers can trust." />
+<img src="./assets/profile-hero.svg" width="100%" alt="Josh Segatt — software engineer building full-stack products, native applications and verifiable AI systems." />
 
 <br />
 
-**Software Engineer · Full-Stack Products · Native Applications · AI Engineering**
+**Independent software engineer** · Product systems · AI developer infrastructure
 
-I turn ambitious product ideas into working software, with a particular interest in **architecture, reliability, developer experience, and thoughtful design**.
-
-[**Portfolio ↗**](https://joshsegatt.com) &nbsp;·&nbsp; [**Explore projects ↓**](#selected-work) &nbsp;·&nbsp; [**Engineering approach ↓**](#how-i-work) &nbsp;·&nbsp; [**Email ↗**](mailto:josuesegatofilho@gmail.com)
-
-<sub>UK · Switzerland · Working across borders</sub>
+[**Explore engineering ↓**](#engineering-with-evidence) &nbsp; / &nbsp; [**See selected products ↓**](#selected-products) &nbsp; / &nbsp; [**Work together ↗**](#get-in-touch)
 
 </div>
 
-<br />
+I'm **Josh**, a software engineer building full-stack applications, native tools, and infrastructure for AI-assisted development. I work from **product experience through architecture and implementation to verification**. The common thread: useful software, understandable systems, and claims backed by something you can inspect.
 
-## Software that works beyond the demo
+<img src="./assets/capability-strip.svg" width="100%" alt="Animated line icons for product interfaces, platform and data engineering, native software, and AI verification systems." />
 
-I build across the stack: **TypeScript/React interfaces, APIs and data models, Rust-powered desktop software, Android apps, and tools for AI-assisted engineering**.
+## Engineering with evidence
 
-My strongest interest is the point where product decisions meet technical risk: an interface should feel effortless, a system should behave predictably, and a release should have evidence behind it. I'm drawn to practical software, not complexity for its own sake.
+### 01 — [SeniorOS](https://github.com/joshsegatt/SeniorOS) · Engineering infrastructure for coding agents
 
-## Featured: SeniorOS
+**The problem:** coding agents can write a patch and still miss the root cause, damage repository history, or report success without running the project's real checks.
 
-<a href="https://github.com/joshsegatt/SeniorOS"><img src="https://raw.githubusercontent.com/joshsegatt/SeniorOS/main/brand/social/readme-hero.svg" width="100%" alt="SeniorOS — coding agents that verify their work" /></a>
+**The approach:** modular skills and hooks, context-aware routing, explicit risk boundaries, verification gates, and a reproducible evaluation harness. The aim is not to make an agent *sound* more experienced. It's to make the workflow more **inspectable and reliable**.
 
-**An engineering layer for coding agents that makes verification part of the workflow.**
-
-SeniorOS uses selective skills, risk boundaries, structured checks, and reproducible evaluations. Its published benchmark compares the same coding tasks across configurations and models, including Claude, Grok, and Gemini. The goal is not more confident AI output. It's **better diagnosis, safer changes, and evidence a reviewer can inspect**.
+**A measured result, with scope:** in a published fifth blind round of **three cause-elsewhere bug tasks × five trials on Claude Opus**, SeniorOS passed **10/15** runs versus **2/15** for the unassisted model. One task had an ambiguous expected product rule; no tested configuration passed it. These are results from this benchmark, **not a universal success rate**.
 
 <div align="center">
 
-<a href="https://github.com/joshsegatt/SeniorOS/blob/main/brand/social/proof.mp4"><img src="https://raw.githubusercontent.com/joshsegatt/SeniorOS/main/brand/social/proof.gif" width="88%" alt="SeniorOS recorded verification demo: the same model on a reported bug, without and with the engineering layer" /></a>
+<a href="https://github.com/joshsegatt/SeniorOS/blob/main/brand/social/proof.mp4">
+  <img src="https://raw.githubusercontent.com/joshsegatt/SeniorOS/main/brand/social/proof.gif" width="94%" alt="Recorded side-by-side bug-fix comparison using Claude Sonnet 5.5: model alone and with SeniorOS. Click for the full video." />
+</a>
 
-<sub>Recorded comparison · <a href="https://github.com/joshsegatt/SeniorOS/blob/main/evals/bench/README.md">Read the methodology and limitations</a> · <a href="https://github.com/joshsegatt/SeniorOS">Explore SeniorOS</a></sub>
+<sub>Actual recorded runs, not a decorative animation. <a href="https://github.com/joshsegatt/SeniorOS/blob/main/brand/social/proof.mp4">Watch the 60-second comparison ↗</a></sub>
 
 </div>
 
-## Selected work
+**Inspect the work:** [Source & architecture](https://github.com/joshsegatt/SeniorOS) · [Benchmarks, methodology & caveats](https://github.com/joshsegatt/SeniorOS/tree/main/evals/bench) · [Leaderboard](https://github.com/joshsegatt/SeniorOS/blob/main/evals/bench/LEADERBOARD.md)
 
-| Project | Problem I'm solving | Engineering focus |
+### 02 — [chit](https://github.com/joshsegatt/chit) · A deterministic delivery gate
+
+**The problem:** “tests pass” is a sentence. It isn't evidence that a patch fixed the reported regression.
+
+**The approach:** run the specified test at `HEAD` in an isolated worktree and require a meaningful failure; run the **same test** after applying the patch and require success; independently replay both outcomes; generate a reviewable HTML receipt. A delivery verdict is withheld when the gates don't hold.
+
+<img src="./assets/engineering-loop.svg" width="100%" alt="Animated verification diagram: red baseline at HEAD, green after patch, independent replay, and reviewable receipt." />
+
+This proves that the specified test discriminates the baseline from the patch. **It does not prove that the test encodes the right product requirement.** The repository also distinguishes its scripted demos from unverified live IDE behavior.
+
+**Inspect the work:** [Source, protocol & limitations](https://github.com/joshsegatt/chit) · [Example red/green evidence](https://github.com/joshsegatt/chit/blob/main/docs/redgreen.jpg)
+
+---
+
+## Selected products
+
+Not every interesting engineering problem starts with AI. I also build products for operations, finance, desktop productivity, and gaming.
+
+| Project | What it addresses | What I built with |
 | :--- | :--- | :--- |
-| **[SeniorOS](https://github.com/joshsegatt/SeniorOS)** | Coding agents need reliable engineering workflows, not just instructions. | Agent tooling, guardrails, benchmarks, verification |
-| **[chit](https://github.com/joshsegatt/chit)** | AI-generated patches shouldn't ship on an unverified “tests pass” claim. | Isolated Git worktrees, red/green proof, deterministic gates |
-| **[Segatt Tools](https://github.com/joshsegatt/Segatt-Tools)** | Windows maintenance without unnecessary cloud dependence. | Rust, Tauri, local AI, privacy-first desktop tooling |
-| **[Batimoving B2B](https://github.com/joshsegatt/Batimoving-b2b)** | Moving logistics and lead workflows need coherent business rules. | Marketplace architecture, transactional workflows, Swiss operations |
-| **[Finora](https://github.com/joshsegatt/Finora)** | Track spending and scan receipts without needing an account. | Kotlin, Jetpack Compose, Room, on-device OCR |
-| **[Sable](https://github.com/joshsegatt/Sable-Overlay-Gamer)** | Make gaming performance telemetry useful in real time. | Rust, Tauri, Windows telemetry, overlays |
-| **[PriceCompass](https://github.com/joshsegatt/PriceCompass)** | Make recurring UK household costs easier to understand. | React, NestJS, PostgreSQL, Prisma |
+| **[Segatt Tools ↗](https://github.com/joshsegatt/Segatt-Tools)** | Local-first Windows maintenance and on-device assistance. | Tauri 2 · Rust · Next.js · WebLLM |
+| **[Batimoving B2B ↗](https://github.com/joshsegatt/Batimoving-b2b)** | Moving and cleaning lead workflows for the Swiss market. | TypeScript · marketplace workflows · business rules |
+| **[Finora ↗](https://github.com/joshsegatt/Finora)** | Offline Android expense tracking and receipt scanning. | Kotlin · Jetpack Compose · Room · ML Kit |
+| **[Sable ↗](https://github.com/joshsegatt/Sable-Overlay-Gamer)** | Gaming telemetry and an in-game performance overlay (**beta**). | Rust · Tauri · Windows ETW · React |
+| **[PriceCompass ↗](https://github.com/joshsegatt/PriceCompass)** | Organizing household bills and plan comparisons in the UK. | React · NestJS · PostgreSQL · Prisma |
 
-<sub>More product work: <a href="https://github.com/joshsegatt/batimove.ch">Batimove</a> · <a href="https://github.com/joshsegatt/CVLetterAI">CVLetterAI</a> · <a href="https://github.com/joshsegatt/LabelGuardUK">LabelGuard UK</a> · <a href="https://github.com/joshsegatt/LocationMonteCharge.ch">Monte Charge</a></sub>
+<sub>More: <a href="https://github.com/joshsegatt/batimove.ch">Batimove</a> · <a href="https://github.com/joshsegatt/CVLetterAI">CVLetterAI</a> · <a href="https://github.com/joshsegatt/LabelGuardUK">LabelGuard UK</a> · <a href="https://github.com/joshsegatt/LocationMonteCharge.ch">Monte Charge</a> · <a href="https://github.com/joshsegatt/UK-TaxSaver">UK TaxSaver</a></sub>
 
-## How I work
+## Engineering principles
 
-<img src="./assets/engineering-loop.svg" width="100%" alt="Animated engineering workflow: understand constraints and risk, implement with clear boundaries, then verify with reproducible evidence" />
+**Start from the user.** Define the outcome, the constraints, and the things the change must *not* break.
 
-I prefer **small, explainable systems** over impressive-looking diagrams with no operational value.
+**Treat architecture as a set of trade-offs.** Small boundaries, explicit states, and reversibility beat complexity added for appearance.
 
-- **Product first:** understand the actual user, the constraints, and what success means.
-- **Engineering discipline:** clear boundaries, explicit state, sensible data models, and reversible changes.
-- **Verification over optimism:** test behavior, investigate root causes, and document what remains uncertain.
-- **Design with intent:** interfaces that communicate clearly, with motion only when it adds meaning.
+**Make verification repeatable.** Prefer observable behavior, failing baselines, real test commands, and artifacts another engineer can inspect.
 
-## Tools I reach for
+**Be precise about limitations.** A benchmark is a benchmark. A beta is a beta. A passing test isn't proof of every requirement.
+
+### Technical toolkit
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,prisma,rust,python,kotlin,docker,githubactions,vercel&theme=dark&perline=12" alt="TypeScript, React, Next.js, Node.js, PostgreSQL, Prisma, Rust, Python, Kotlin, Docker, GitHub Actions and Vercel" />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,rust,python,kotlin,docker,githubactions&theme=dark&perline=10" alt="TypeScript, React, Next.js, Node.js, PostgreSQL, Rust, Python, Kotlin, Docker and GitHub Actions" />
 
 </div>
 
-| Layer | Stack |
-| :--- | :--- |
-| **Interfaces** | TypeScript, React, Next.js, Tailwind CSS, Vite |
-| **Backend & data** | Node.js, NestJS, PostgreSQL, Prisma, Drizzle |
-| **Native & mobile** | Rust, Tauri, Kotlin, Jetpack Compose |
-| **AI & tooling** | Model integrations, agent workflows, evaluation harnesses, local inference |
-| **Shipping** | Docker, GitHub Actions, Vercel |
+**Web & API:** TypeScript, React, Next.js, Node.js, NestJS, PostgreSQL, Prisma / Drizzle.  
+**Native:** Rust, Tauri, Kotlin, Jetpack Compose.  
+**AI & engineering tools:** agent workflows, model integrations, local inference, evaluation and regression harnesses.  
+**Delivery:** Docker, GitHub Actions, Vercel.
 
-## Build something worth shipping
+---
 
-I'm interested in **software engineering contracts, product collaborations, native tooling, and AI developer infrastructure**. If the problem requires both a useful product and a serious engineering foundation, let's talk.
+## Get in touch
+
+I work at the intersection of **product engineering, native tooling, and AI developer infrastructure**. If you're reviewing my work as an engineer, start with the **[SeniorOS methodology](https://github.com/joshsegatt/SeniorOS/tree/main/evals/bench)** or **[chit's verification contract](https://github.com/joshsegatt/chit)**. If you're building a product and want to discuss a collaboration, here's the direct route:
 
 <div align="center">
 
-**[joshsegatt.com](https://joshsegatt.com) &nbsp;·&nbsp; [josuesegatofilho@gmail.com](mailto:josuesegatofilho@gmail.com)**
+### [joshsegatt.com ↗](https://joshsegatt.com) &nbsp;·&nbsp; [Email me ↗](mailto:josuesegatofilho@gmail.com)
 
-<sub>Built with intent. Tested with evidence. Improved in public.</sub>
+<sub>UK ↔ Switzerland · Remote collaboration</sub>
+
+<br />
+
+<sub>Design the product. Engineer the system. Show the evidence.</sub>
 
 </div>
