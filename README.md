@@ -3,8 +3,6 @@
   <img src="./assets/hero-light.png" width="100%" alt="Josh Segatt. I build software, and the evidence that it works. Software engineer, co-founder of SG Tecnologia e Automações, UK and Switzerland.">
 </picture>
 
-I take software from the product question to a verified release: what the person needs, the architecture that serves it, the implementation, and the proof that it works. Web platforms, native apps for Windows, Android and iOS, and tools that make AI coding agents accountable.
-
 <br>
 
 <picture>
