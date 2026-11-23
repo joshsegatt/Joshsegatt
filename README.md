@@ -53,6 +53,11 @@ It proves the test separates the baseline from the patch. **It does not prove th
 Debloat, tweak, clean and repair Windows 10 and 11. Every tweak shows its live state before it changes anything, saves the original value, and is read back after writing, so one click undoes it. Bootable USB maker, winget apps, 10 languages, no telemetry.
 `Tauri 2 · Rust · Next.js` · [Download](https://github.com/joshsegatt/Segatt-Lab/releases/latest) · [Website](https://joshsegatt.github.io/Segatt-Lab/)
 
+### [BatteryLife](https://github.com/joshsegatt/BatteryLife) · Wireless battery, read like an airport sign
+
+A Windows 11 tray hub that answers one question: what needs charging, and how long is left. It learns each device's drain to turn "18%" into "2 h 10 min", alerts once at 15%, and only ever reads. 77 brand drivers ported to Rust from the community [BatteryHub](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) research, with 378 tests; Logitech and Phone Link verified on real hardware.
+`Rust · Windows 11 · GPL-3.0` · [Download](https://github.com/joshsegatt/BatteryLife/releases/latest)
+
 ### [Finora](https://github.com/sg-tecnologia-automacoes) · Personal finance, private by design
 
 Shows at a glance what is still safe to spend this month and logs an expense in three taps. Data stays on the phone: no account, no server. Built with SG Tecnologia e Automações; in closed testing on Google Play, iOS next.
